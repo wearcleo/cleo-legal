@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de Cookies y Almacenamiento Local — Cleo</title>
+<style>
+:root {
+  --cream: #FAFAF8;
+  --purple: #6C5CE7;
+  --purple-light: #F0EDFE;
+  --purple-dark: #534AB7;
+  --text: #1A1814;
+  --text-muted: #6B6862;
+  --border: #E2DDD6;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  line-height: 1.65;
+}
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 18px 24px;
+  border-bottom: 0.5px solid var(--border);
+  background: var(--cream);
+  position: sticky;
+  top: 0;
+}
+.topbar .avatar {
+  width: 30px; height: 30px;
+  border-radius: 15px;
+  background: var(--purple);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex; align-items: center; justify-content: center;
+}
+.topbar .brand {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+}
+.topbar nav {
+  margin-left: auto;
+  display: flex;
+  gap: 18px;
+}
+.topbar nav a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+}
+.topbar nav a.active, .topbar nav a:hover { color: var(--purple); }
+
+main {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
+.doc-header {
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--border);
+}
+.doc-header h1.doc-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  color: var(--text);
+}
+.doc-header .doc-sub {
+  color: var(--text-muted);
+  font-size: 14px;
+  margin: 0 0 14px;
+}
+.meta-box {
+  background: var(--purple-light);
+  border-radius: 10px;
+  padding: 14px 16px;
+  font-size: 13px;
+  color: var(--purple-dark);
+  line-height: 1.6;
+}
+main h1 {
+  font-size: 19px;
+  font-weight: 700;
+  margin: 36px 0 12px;
+  color: var(--text);
+}
+main h1:first-of-type { margin-top: 0; }
+main h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 22px 0 10px;
+  color: var(--text);
+}
+main p { margin: 0 0 12px; font-size: 15px; color: var(--text); }
+main ul { margin: 0 0 14px; padding-left: 20px; }
+main li { margin-bottom: 8px; font-size: 15px; }
+main li p { margin: 0; }
+main a { color: var(--purple); }
+footer {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 24px 60px;
+  color: var(--text-muted);
+  font-size: 12px;
+}
+</style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="avatar">C</div>
+    <a href="index.html" class="brand">Cleo</a>
+    <nav><a href="privacidad.html" class="">Privacidad</a>
+<a href="terminos.html" class="">Términos</a>
+<a href="cookies.html" class="active">Cookies</a></nav>
+  </div>
+  <main>
+    <div class="doc-header">
+      <h1 class="doc-title">Política de Cookies y Almacenamiento Local</h1>
+      <p class="doc-sub">Aplicación móvil Cleo</p>
+      <div class="meta-box">
+        Última actualización: 1 de julio de 2026<br>
+        Responsable: Cristina Amariutei · <a href="mailto:privacidad@cleo.app" style="color:inherit;">privacidad@cleo.app</a>
+      </div>
+    </div>
+    <p>1. ¿Qué es el almacenamiento local en una app?</p>
+<p>A diferencia de los sitios web, las aplicaciones móviles no utilizan cookies en el sentido técnico tradicional. Cleo utiliza mecanismos equivalentes de almacenamiento local en tu dispositivo para el correcto funcionamiento de la App. Esta política te informa de qué datos se almacenan localmente y con qué finalidad.</p>
+<p>2. Datos almacenados localmente en tu dispositivo</p>
+<p>Cleo almacena en el almacenamiento local de tu dispositivo (AsyncStorage) los siguientes datos:</p>
+<p>2.1 Almacenamiento estrictamente necesario (no requiere consentimiento)</p>
+<ul>
+<li><p>device_id: identificador único anónimo generado aleatoriamente que permite identificar tu sesión sin necesidad de registro. No contiene datos personales identificables.</p></li>
+<li><p>cleo_onboarding_done: indicador booleano que registra si has completado el proceso de configuración inicial.</p></li>
+<li><p>cleo_profile: datos de tu perfil (nombre, ciudad, estilo, tallas) introducidos durante el onboarding.</p></li>
+<li><p>bolsa_donacion: lista local de prendas marcadas para donación pendiente de gestión.</p></li>
+</ul>
+<p>2.2 Almacenamiento funcional (requiere consentimiento)</p>
+<ul>
+<li><p>cleo_selfie: fotografía de tu rostro almacenada localmente para la función de análisis de colorimetría. Solo se almacena si activas esta función. Puedes eliminarlo en cualquier momento desde Ajustes &gt; Eliminar foto de perfil.</p></li>
+<li><p>cleo_profile_extra: bio e intereses adicionales del perfil público. Solo se almacena si completas esta información voluntariamente.</p></li>
+</ul>
+<p>3. Datos en nuestros servidores (Supabase)</p>
+<p>Adicionalmente, los siguientes datos se sincronizan con nuestros servidores en la nube para garantizar la disponibilidad de tu armario en múltiples dispositivos y prevenir pérdida de datos:</p>
+<ul>
+<li><p>Datos del armario (prendas, imágenes, atributos) — necesarios para la prestación del servicio.</p></li>
+<li><p>Looks guardados y favoritos.</p></li>
+<li><p>Fotos de looks compartidos públicamente en tu perfil.</p></li>
+</ul>
+<p>Consulta nuestra Política de Privacidad para más información sobre cómo tratamos estos datos y tus derechos.</p>
+<p>4. Análisis y métricas</p>
+<p>Actualmente Cleo no utiliza herramientas de analítica de terceros (como Firebase Analytics, Mixpanel o similares). Si en el futuro incorporásemos alguna, actualizaremos esta política y solicitaremos tu consentimiento cuando sea necesario.</p>
+<p>5. Cómo gestionar o eliminar el almacenamiento local</p>
+<p>Puedes gestionar o eliminar el almacenamiento local de Cleo de las siguientes formas:</p>
+<ul>
+<li><p>Desde la propia App: Ajustes &gt; Eliminar datos (cuando esté disponible en próximas versiones).</p></li>
+<li><p>Desinstalando la App: la desinstalación de la aplicación elimina todos los datos almacenados localmente en tu dispositivo. Los datos en la nube (Supabase) se conservarán durante 30 días adicionales salvo que solicites su eliminación expresa a privacidad@cleo.app.</p></li>
+<li><p>Contactando con nosotros: escríbenos a privacidad@cleo.app para solicitar la eliminación completa de todos tus datos.</p></li>
+</ul>
+<p>6. Actualizaciones de esta política</p>
+<p>Esta Política de Cookies fue actualizada por última vez el 1 de julio de 2026. Cualquier cambio relevante será comunicado a través de la App.</p>
+<p>7. Contacto</p>
+<p>Para cualquier consulta sobre el almacenamiento de datos, contacta con nosotros en: privacidad@cleo.app</p>
+
+  </main>
+  <footer>© 2026 Cleo — Cristina Amariutei</footer>
+</body>
+</html>

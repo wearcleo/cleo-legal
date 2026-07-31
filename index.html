@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Documentos legales — Cleo</title>
+<style>
+  :root {
+    --cream: #FAFAF8;
+    --purple: #6C5CE7;
+    --purple-light: #F0EDFE;
+    --purple-dark: #534AB7;
+    --text: #1A1814;
+    --text-muted: #6B6862;
+    --border: #E2DDD6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--cream);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card {
+    max-width: 420px;
+    width: 100%;
+    padding: 40px 28px;
+    text-align: center;
+  }
+  .avatar {
+    width: 48px; height: 48px;
+    border-radius: 24px;
+    background: var(--purple);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex; align-items: center; justify-content: center;
+    margin: 0 auto 16px;
+  }
+  h1 {
+    font-size: 22px;
+    margin: 0 0 8px;
+  }
+  p.sub {
+    color: var(--text-muted);
+    font-size: 14px;
+    margin: 0 0 28px;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .links a {
+    display: block;
+    padding: 14px 16px;
+    background: var(--purple-light);
+    color: var(--purple-dark);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+  }
+  .links a:hover { background: #E4DFFC; }
+  footer {
+    margin-top: 32px;
+    color: var(--text-muted);
+    font-size: 12px;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">C</div>
+    <h1>Documentos legales de Cleo</h1>
+    <p class="sub">Política de privacidad, términos de uso y cookies de la app Cleo.</p>
+    <div class="links">
+      <a href="privacidad.html">📄 Política de Privacidad</a>
+      <a href="terminos.html">📄 Términos y Condiciones</a>
+      <a href="cookies.html">📄 Política de Cookies</a>
+    </div>
+    <footer>© 2026 Cleo — Cristina Amariutei</footer>
+  </div>
+</body>
+</html>
